@@ -1,0 +1,18 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reactNew":"cd reactNew/my-app && npm start",
+    "nodeNew":"cd nodeNew && npm start",
+    "start": "concurrently \"npm run reactNew\" \"npm run nodeNew\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
